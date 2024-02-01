@@ -1,0 +1,15 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto e374326080f24bc19bcc2bfa1a8dee5b --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ssd_top_tb_behav xil_defaultlib.ssd_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCD_To_7seg
+Compiling module xil_defaultlib.Sync_BCD_counter
+Compiling module xil_defaultlib.ssd_top
+Compiling module xil_defaultlib.ssd_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ssd_top_tb_behav
