@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Dec 04 19:56:53 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="c7e09ca6430e4d9f8813907fab2ca1b7" type="ProjectID"/>
+<property name="ProjectIteration" value="11" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="17" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="4" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="3" type="JavaHandler"/>
+<property name="OpenProject" value="6" type="JavaHandler"/>
+<property name="RunBitgen" value="4" type="JavaHandler"/>
+<property name="RunImplementation" value="6" type="JavaHandler"/>
+<property name="RunSchematic" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
+<property name="SetTopNode" value="19" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="SimulationClose" value="31" type="JavaHandler"/>
+<property name="SimulationRun" value="40" type="JavaHandler"/>
+<property name="ViewTaskProgramandDebug" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="9" type="JavaHandler"/>
+<property name="ViewTaskSimulation" value="3" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="BCD_To_7seg.v, 143, 311" value="1" type="GuiResourceData"/>
+<property name="BCD_To_7seg.v, 175, 174" value="1" type="GuiResourceData"/>
+<property name="BCD_To_7seg.v, 199, 187" value="1" type="GuiResourceData"/>
+<property name="BCD_To_7seg.v, 244, 151" value="1" type="GuiResourceData"/>
+<property name="BCD_To_7seg.v, 283, 199" value="1" type="GuiResourceData"/>
+<property name="BCD_To_7seg.v, 283, 199, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="BCD_tb.v, 138, 164" value="1" type="GuiResourceData"/>
+<property name="BCD_tb.v, 184, 149" value="1" type="GuiResourceData"/>
+<property name="BCD_tb.v, 185, 111" value="2" type="GuiResourceData"/>
+<property name="BCD_tb.v, 67, 331" value="1" type="GuiResourceData"/>
+<property name="BCD_tb.v, 85, 43" value="1" type="GuiResourceData"/>
+<property name="BCD_tb.v, 91, 233" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="7" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SET_AS_TOP, Set as Top" value="8" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="14" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Top_top (Top_top.v" value="40" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, BCD_tb (BCD_tb.v" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Sync_BCD_tb (Sync_BCD_tb.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, ssd_top_tb (ssd_top_tb.v" value="16" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="15" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation], 9, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="6" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="8" type="GuiResourceData"/>
+<property name="PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, Force up-to-date" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, more info" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, run 1000ns, true" value="3" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="13" type="GuiResourceData"/>
+<property name="RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, Don't show this dialog again, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1051, 698" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 115, 98" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 12, 10" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 147, 99" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 185, 47" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 42, 43" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 15" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 7" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 8" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, Q_tb[4:0]], 3" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, anode_tb[7:0]], 4" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, cathode_tb[7:0]], 3" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, cathode_tb[7:0]], 4" value="4" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, cathode_tb[7:0]], 4, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="Sync_BCD_counter.v, 335, 295" value="1" type="GuiResourceData"/>
+<property name="Sync_BCD_counter.v, 342, 298" value="1" type="GuiResourceData"/>
+<property name="Sync_BCD_counter.v, 438, 284" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 109, 110" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 111, 61" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 113, 212" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 148, 172" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 148, 172, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 169, 342" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 174, 213" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 178, 536" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 184, 334" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 190, 384" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 238, 190" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 247, 186" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 251, 82" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 259, 283" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 260, 237" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 54, 281" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 733, 179" value="1" type="GuiResourceData"/>
+<property name="ssd_top_tb.v, 92, 244" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="30" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="26" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
